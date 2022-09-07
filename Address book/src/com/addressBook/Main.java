@@ -19,6 +19,9 @@ public class Main {
 
 		person.addContact();
 		person.printList();
+		
+		person.editContact();
+		person.printList();
 
 	}
 }

@@ -22,6 +22,9 @@ public class Main {
 		
 		person.editContact();
 		person.printList();
+		
+		person.deleteContact();
+		person.printList();
 
 	}
 }

@@ -127,4 +127,14 @@ public class AddressBook {
 			}
 		}
 	}
+
+	public void deleteContact() {
+		System.out.println("Enter the contact name you want to delete");
+		String name = sc.next();
+		for (int i = 0; i < list.size(); i++) {
+			if ((list.get(i).getFirstName()).equals(name)) {
+				list.remove(i);
+			}
+		}
+	}
 }
